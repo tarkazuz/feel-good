@@ -1,0 +1,76 @@
+body{
+    background-color: #2b1703ec;
+    margin: 3% 10%;
+    color: #d8c8bbb3;
+    text-shadow: darkgrey 3px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+img{
+    border-radius: 70px;
+    border: dotted #2b1703ec 3px;
+    display: inline-block;
+    width:30vw;
+    margin: 2%;
+}
+
+li{
+    margin: 2%;
+    border: dotted #d8c8bbb3;;
+}
+
+div{
+    display: inline-block;
+    width: 45vw;
+}
+
+#resultField{
+    background-color: #d8c8bbb3;
+    border: #f8f6f4b3 3px solid;
+    padding: 5%;
+    margin-top: 5%;
+    color:  #2b1703ec;
+}
+
+#search{
+    background-color: #d8c8bbb3;
+    padding:1% 2%;
+}
+
+#searchButton{
+    background-color: #d8c8bbb3;
+    color:  #2b1703ec;
+    font-weight: bolder;
+    padding:1% 2%;
+}
+
+.backButton{
+    margin-left: 70vw;
+    margin-top: 0;
+    color:  #074f57;
+    font-weight: bold;
+    background-color:#ffefe4;
+    opacity:0.5;
+   border:#074f57 solid 1px;
+   border-radius: 5px;
+   padding: 0.3rem 1rem;
+}
+
+.backButton:hover{
+background-color:#ffefe4 ;
+   opacity:1;
+}
+
+.welcomeLogo{
+    margin: auto;
+    width:6vw;
+    height: auto;
+}
+
+@media all and (min-width: 700px){
+    .welcomeLogo{
+        width:4vw;
+    }
+
+}

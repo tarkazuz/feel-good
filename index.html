@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feel Good</title>
+    <link rel="shortcut icon" type="image/jpg" href="./ressources/favicon.ico"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="content">
+  <header>
+    <div class="box">
+      <img  src="https://images.unsplash.com/photo-1492229827549-864b833d699c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1951&q=80" alt="Sunset">
+      <h1 class="boxText" id='homepage'>Feel Good</h1>
+    </div>
+      <div class='details' id='homeDets' hidden>
+        <button class="closeButton" id="closeMain">Close X</button>
+        <img src="ressources/favicon-32x32(1).png" class="welcomeLogo">
+        <h2>Welcome to the <i>Feel Good</i> page</h2>
+        
+        <div>
+          <p>This page was created during the 2020 Covid-19 lockdown and is supposed to make you feel even a tiny bit better during this time of uncertainity and boredom.</p>
+            <div class="creds">
+              <div>Created by: <a href="https://github.com/tarkazuz" target='_blank'> <img src='ressources/10412341841540553610-128.png' class="icon" alt="github logo"><i>tarkazuz</i></a></div>
+              <div>Photos: <a href="https://unsplash.com/" target='_blank'> <img src="ressources/6932924961579362050-128.png" class="icon" alt="photo logo"><i>Unsplash.com</i></a> </div>
+          </div>
+        </div>
+        
+      </div>
+
+  </header>
+
+  <div class="box">
+    <img  src="https://images.unsplash.com/photo-1603325022885-a211d5ccd6a8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" alt="Nature">
+    <h2 id="natureButton" class="boxText" > <a href="#natureDets">Discover Nature</a></h2>
+  </div>
+  <div id ="natureDets" class="details" hidden>
+     <button class="closeButton" id="closeNature">Close X</button>
+     <img src="ressources/favicon-32x32(1).png" class="welcomeLogo">
+     <h3>Chose your favourite season and discover the beauty of nature</h3>
+    <button id="autumnButton" class="boxText gotopageButton"> <a href='./galleries/autumn.html'>Autumn</a></button>
+    <button id="winterButton" class="boxText gotopageButton" > <a href='./galleries/winter.html'>Winter</a></button>
+    <button id="springButton" class="boxText gotopageButton" ><a href='./galleries/spring.html'>Spring</a></button>
+    <button id="summerButton" class="boxText gotopageButton" > <a href='./galleries/summer.html'>Summer</a></button>
+  </div>
+
+  <div class="box">
+      <img src="https://images.unsplash.com/photo-1586899028174-e7098604235b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" alt="Netflix and chill">
+      <h2 id="showButton" class="boxText"><a href="#showDets">Search for new shows</a></h2>
+  </div>
+
+  <div id="showDets" class="details" hidden>
+    <button class="closeButton" id="closeShow">Close X</button>
+    <img src="ressources/favicon-32x32(1).png" class="welcomeLogo">
+    <h3>Explore new shows</h3>
+    <p>//Powered by tvmaze.com//</p>
+    <button class='boxText gotopageButton'> <a href='./showSearch/showSearch.html'>Take me to a show search</a></button>
+  </div>
+
+
+  <div class="box">
+      <img src="https://images.unsplash.com/photo-1521036392421-35d436448d6a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" alt="Book">
+      <h2 id="bookButton" class="boxText "><a href="#bookDets">Grab a book</a></h2>
+  </div>
+
+  <div id="bookDets" class="details" hidden>
+    <button class="closeButton" id="closeBook">Close X</button>
+    <img src="ressources/favicon-32x32(1).png" class="welcomeLogo">
+    <h3>Here is a book reccomendation</h3>
+    <p>//Feature currently unavailable//</p>
+    <form>
+      <input type='text' placeholder='Enter book name' id='search'>
+      <button type='submit'>Search</button>
+      <ol id='resultList' hidden>Here are your reccomendations</ol>
+    </form>
+  </div>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

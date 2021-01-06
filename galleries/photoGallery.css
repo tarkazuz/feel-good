@@ -1,0 +1,132 @@
+body{
+    
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color:rgb(170, 100, 9);
+}
+
+
+.backButton{
+    margin-left: 70vw;
+    margin-top: 2%;
+    color:  #074f57;
+    font-weight: bold;
+    background-color:#ffefe4;
+    opacity:0.5;
+   border:#074f57 solid 1px;
+   border-radius: 5px;
+   padding: 0.3rem 1rem;
+}
+
+.backButton:hover{
+    background-color:#ffefe4 ;
+   opacity:1;
+}
+#autumn{
+    background-color: rgb(255, 214, 160);
+}
+
+#winter{
+    background-color: #1d3557;
+    color: #a8dadc;
+}
+
+#winter img{
+    border: #a8dadc solid 5px;
+}
+
+#winter img:hover{
+    border: solid 8px #457b9d;
+}
+
+#spring{
+    background-color: #f7cad0;
+    color: #ff477e;
+}
+
+#spring img{
+    border: solid 5px #ff99ac;
+}
+
+#spring img:hover{
+    border: solid 8px #ff7096;
+}
+
+#summer{
+    background-color: #c08497;
+    color: #240046;
+}
+
+#summer img{
+    border: solid 5px #ffcad4;
+}
+
+#summer img:hover{
+    border: solid 8px #8f2d56;
+}
+img{
+    border: burlywood solid 5px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 5%;
+
+}
+
+img:hover{
+    border: rgb(170, 100, 9) solid 8px;
+    width: 82%;
+    transition: all 2s;
+}
+
+.welcomeLogo{
+    margin: 1rem 45vw;
+    width:6vw;
+    height: auto;
+}
+
+.welcomeLogo:hover{
+    margin: 1rem 45vw;
+    width:4vw;
+    height: auto;
+    border: solid 5px;
+}
+
+footer{
+    font-size: small;
+}
+
+footer a{
+    text-decoration: none;
+    color:  rgb(170, 100, 9);
+    font-weight: bold;
+}
+@media all and (min-width: 700px){
+    img{
+        width: 35%;
+        border-radius: 80px;
+    }
+
+    img:hover{
+        width: 40%;
+        border-radius: 20px;
+        transition: all 2s;
+    }
+    .welcomeLogo{
+        width:4vw;}
+
+}
+
+@media all and (min-width: 990px){
+    img{
+        width: 25%;
+        margin: 2%;
+        border-radius: 150px;
+    }
+
+    img:hover{
+        width: 30%;
+        border-radius: 20px;
+        transition: all 2s;
+    }
+}

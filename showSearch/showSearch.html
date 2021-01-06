@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Search</title>
+    <link rel="stylesheet" href="showSearch.css">
+    <link rel="shortcut icon" type="image/jpg" href="../ressources/favicon-32x32(1).png"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <button class="backButton">Go back</button>
+    <a href="../index.html"><img src="../ressources/favicon-32x32(1).png" class="welcomeLogo"></a>
+    <h1>Show Search</h1>
+    <h2>Best show search engine</h2>
+    <section>
+        <form>
+            <input type="text" required placeholder="Showtime" id="search" autofocus>
+            <button type="submit" id='searchButton'>Search</button>
+        </form>
+    </section>
+    <section id="resultField">
+        <div id='noResults'>
+            <h2>No results yet.</h1>
+            <h3>Please type in the name of a show.</h2>
+        </div>
+        <ul id="resultList" style="list-style-type: none">
+
+        </ul>
+  
+    </section>
+    <script src="showSearch.js"></script>
+</body>
+</html>
